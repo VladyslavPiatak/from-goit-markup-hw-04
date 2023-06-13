@@ -58,7 +58,6 @@ img{
 .header-container {
    display: flex;
    align-items: center;
-
 }
 
 .header-nav {
@@ -188,7 +187,6 @@ img{
 .hero-btn:focus {
    background-color: var(--color-ocean);
    cursor: pointer;
-   color: #FFFFFF;
 }
 
 
@@ -360,13 +358,14 @@ img{
    display: flex;
    align-items: center;
    justify-content: center;
-   transition: background-color var(--transition), border-radius var(--transition);
+   transition: background-color var(--transition);
+   border-radius: 50%;
 }
 
 .social-link:focus,
 .social-link:hover {
    background-color: var(--accent);
-   border-radius: 25%;
+   background-color: #000;
 }
 
 .social-icon {
@@ -412,7 +411,7 @@ img{
 
 .customers-item-link:hover,
 .customers-item-link:focus {
-   border: 1px solid var(--accent);
+   border-color: 1px solid var(--accent);
    fill: currentColor;
 }
 
@@ -502,7 +501,8 @@ img{
    cursor: pointer;
    border-radius: 4px;
    padding: 12px 24px;
-   border: 1px solid var(--border)
+   border: 1px solid var(--border);
+   transition: color var(--transition), background var(--transition), border var(--transition);
 }
 
 .button:focus, 
