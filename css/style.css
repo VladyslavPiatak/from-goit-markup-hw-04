@@ -189,6 +189,8 @@ img{
    cursor: pointer;
 }
 
+.is-hidden {}
+
 
 
 
@@ -232,6 +234,7 @@ img{
    margin-bottom: 8px;
    background: var(--color-cloud);
    border-radius: 4px;
+   padding: 24px 102px;
 }
 
 .power-list-icon{}
@@ -364,8 +367,7 @@ img{
 
 .social-link:focus,
 .social-link:hover {
-   background-color: var(--accent);
-   background-color: #000;
+   background-color: var(--color-ocean);
 }
 
 .social-icon {
