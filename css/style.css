@@ -494,6 +494,13 @@ img{
 .soc-box>.social-person {
    gap: 16px;
 }
+.soc-hover{
+   padding: 0;
+}
+.soc-hover:focus,
+.soc-hover:hover {
+   background-color: var(--color-green);
+}
 
 
 /* -----------------------------index---------------------------- */
