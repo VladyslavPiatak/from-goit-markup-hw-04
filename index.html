@@ -71,7 +71,6 @@
           <button class="hero-btn" type="button" data-modal-open>
             Order Service
           </button>
-          <div class="is-hidden backdrop" data-modal></div>
         </div>
       </section>
       <section class="power">
@@ -466,6 +465,34 @@
         </div>
       </div>
     </footer>
+    <div class="modal">
+      <button class="modal-btn" type="button" data-modal-close>
+        <svg class="modal-btn-icon">
+          <use></use>
+        </svg>
+      </button>
+      <form class="modal-form" action="">
+        <input
+          type="text"
+          name="user-name"
+          class="modal-input"
+          required
+          placeholder="Name"
+        />
+        <input
+          type="email"
+          name="user-email"
+          class="modal-input"
+          placeholder="Email"
+        />
+        <input
+          type="tel"
+          name="user--number"
+          class="modal-input"
+          placeholder="Phone number"
+        />
+      </form>
+    </div>
     <script src="./js/modal.js"></script>
   </body>
 </html>

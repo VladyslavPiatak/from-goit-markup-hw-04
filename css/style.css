@@ -189,7 +189,15 @@ img{
    cursor: pointer;
 }
 
-.is-hidden {}
+.modal {}
+
+.modal-btn {}
+
+.modal-btn-icon {}
+
+.modal-form {}
+
+.modal-input {}
 
 
 
