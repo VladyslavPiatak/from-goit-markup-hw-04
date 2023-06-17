@@ -649,25 +649,21 @@ img{
 }
 
 .overlay-content {
-   position: absolute;
-   bottom: 0;
-   left: 0;
-   width: 100%;
-   height: 100%;
-   padding: 40px 32px;
-   background-color: rgba(77,90,229, 0.9);
-   color: var(--color-cloud);
-   transform: translateY(100%);
-   transition: var(--transition);
-}
-
-
-.overlay-content p {
-   bottom: 0;
    font-weight: 400;
    font-size: 16px;
    line-height: 1.5;
    letter-spacing: 0.02em;
+   color: var(--color-cloud);
+   background-color: var(--accent);
+   position: absolute;
+   top: 0;
+   bottom: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   padding: 40px 32px;   
+   transform: translateY(100%);
+   transition: var(--transition);
 }
 
 .addition-portfolio{
