@@ -647,6 +647,10 @@ img{
    transform: translateY(0%);
 }
 
+.card:focus .overlay-content {
+   transform: translateY(0%);
+}
+
 .img-overlay-box {
    position: relative;
    overflow: hidden;
@@ -674,6 +678,7 @@ img{
    transform: translateY(100%);
    transition: transform var(--transition);
 }
+
 
 .addition-portfolio{
    padding: 32px 16px 32px;
