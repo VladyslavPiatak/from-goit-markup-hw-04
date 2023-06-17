@@ -414,6 +414,7 @@ img{
    display: inline-block;
    width: calc((100% - 120px) / 6);
    height: 88px;
+
 }
 
 .customers-icon {}
@@ -663,7 +664,7 @@ img{
    height: 100%;
    padding: 40px 32px;   
    transform: translateY(100%);
-   transition: var(--transition);
+   transition: transform var(--transition);
 }
 
 .addition-portfolio{
